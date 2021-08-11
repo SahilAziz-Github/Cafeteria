@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<style>
+body {
+  font-family: Times New Roman;
+  font-size: 25px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.coupon {
+  border: 5px dotted #bbb;
+  width: 80%;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: black;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+    body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+</style>
+    
+</head>
+
+<body>
+ <div class="sidenav">
+  <a href="login.php">Login</a>
+  <a href="reg.php">Registration</a>
+  <a href="about.html">About Us</a>
+  <a href="contact.html">Contact</a>
+</div>
+<div class="main">
+    <div class="icon-bar">
+      <a class="active" href="#"><i class="fa fa-home"></i></a> 
+      <a href="#"><i class="fa fa-search"></i></a> 
+      <a href="#"><i class="fa fa-envelope"></i></a> 
+      <a href="#"><i class="fa fa-globe"></i></a>
+      <a href="#"><i class="fa fa-trash"></i></a> 
+    </div>
+    <div class="container">
+    <img src= "images/slide03.jpg">
+        <div class="content">
+            <h1>Sakib's Diner</h1>
+            <p>Your trusted place for quality dining experience</p>
+        </div>
+                    
+    </div>
+    <div>
+        <h2>Discover Our Experiences</h2>
+        <h5>We care about you</h5>
+        <p>From the beginning of our franchise it was our honorable guests who kept our chain up and running in short time continously. So our guests are more than just important for us. Each and every guests are attended with atmost care</p>
+        <br>
+        <h2>Covid-19 Measurements</h2>
+        <h5>We are fully prepared to shield our guests from COVID</h5>
+        <p>Keeping in mind the devastating effect of Covid-19 in the whole world, our restaurant has been equiped with infrared thermometers, hand sanitizers, alcohol wipes. Our Chefs prepare your food in the safest way possible so that you and your family always stay protected.</p>
+    </div>
+    
+    <div>
+        <h2>Our Famous Dishes</h2>
+    </div>
+    
+    <div class="row"> 
+          <div class="column">
+            <img src="images/d1.jpg" style="width:100%">
+            <img src="images/d2.jpeg" style="width:100%">
+            <img src="images/d3.jpg" style="width:100%">
+            <img src="images/d4.jpg" style="width:100%">
+            <img src="images/d5.jpg" style="width:100%">
+            <img src="images/d6.jpg".jpg style="width:100%">
+            <img src="images/d7.jpg" style="width:100%">
+            </div>
+          <div class="column">
+            <img src="images/d8.jpg" style="width:100%">
+            <img src="images/d9.jpeg" style="width:100%">
+            <img src="images/d10.jpg" style="width:100%">
+            <img src="images/d11.jpg" style="width:100%">
+            <img src="images/d12.jpg" style="width:100%">
+            <img src="images/d13.jpg" style="width:100%">
+          </div>  
+        
+          <div class="column">
+            <img src="images/d14.jpg" style="width:100%">
+            <img src="images/d15.jpg" style="width:100%">
+            <img src="images/d16.jpg" style="width:100%">
+            <img src="images/d17.jpg" style="width:100%">
+            <img src="images/d18.jpg" style="width:100%">
+            <img src="images/d19.jpg" style="width:100%">
+            <img src="images/d20.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/d1.jpg" style="width:100%">
+            <img src="images/d2.jpeg" style="width:100%">
+            <img src="images/d3.jpg" style="width:100%">
+            <img src="images/d4.jpg" style="width:100%">
+            <img src="images/d5.jpg" style="width:100%">
+            <img src="images/d6.jpg" style="width:100%">
+          </div> 
+    </div>
+
+    
+     <div>
+        <h2>Special Offers!!</h2>
+    </div>
+    
+    <div class="coupon">
+        <div class="container">
+            <h3>Sakib's Diner</h3>
+        </div>
+            <img src="images/coupon.jpg" alt="Avatar" style="width:100%;">
+        <div class="container" style="background-color:black">
+            <h2><b>20% OFF YOUR FIRST PURCHASE</b></h2> 
+            <p>As a token of love for joining our family we offer you discount on your first purchase. Cheers!</p>
+        </div>
+        <div class="container">
+            <p>Use Promo Code: <span class="promo">BOH232</span></p>
+            <p class="expire">Expires: Oct 03, 2021</p>
+        </div>
+    </div>
+    
+     <div>
+        <h2>Owner Introduction</h2>
+    </div>
+    
+    <div class="card">
+      <img src="images/skib.jpg" alt="Sakib" style="width:100%">
+      <h1>Nazmul Sakib Sadman</h1>
+      <p class="title">CEO & Founder</p>
+      <p>Sakib's Diner</p>
+      <div style="margin: 24px 0;">
+        <a href="#"><i class="fa fa-dribbble"></i></a> 
+        <a href="#"><i class="fa fa-twitter"></i></a>  
+        <a href="#"><i class="fa fa-linkedin"></i></a>  
+        <a href="#"><i class="fa fa-facebook"></i></a> 
+      </div>
+      <p><button>Contact</button></p>
+    </div>
+    
+</div>
+
+
+</body>
+</html>
